@@ -434,7 +434,7 @@
     <ePixmap name="" position="257,77" size="32,32" pixmap="Royal-Blue.skin/green.png" alphatest="on" transparent="0" />
     <eLabel name="key_yellow" position="471,77" size="130,32" text="EuroSatDevice" halign="center" backgroundColor="background1" transparent="1" foregroundColor="yellow" />
     <ePixmap name="" position="82,77" size="32,32" pixmap="Royal-Blue.skin/red.png" alphatest="on" transparent="0" />
-    <eLabel name="key_green" position="296,77" size="130,32" text="PLUGINs" halign="center" backgroundColor="background1" transparent="1" foregroundColor="green" />
+    <eLabel name="key_green" position="296,77" size="130,32" text="PLUGINS" halign="center" backgroundColor="background1" transparent="1" foregroundColor="green" />
     <eLabel name="key_red" position="121,77" size="130,32" text="FORECA Meteo" halign="center" backgroundColor="background1" transparent="1" foregroundColor="red" />
     <ePixmap name="" position="607,77" size="32,32" pixmap="Royal-Blue.skin/blue.png" alphatest="on" transparent="0" />
     <ePixmap name="" position="432,77" size="32,32" pixmap="Royal-Blue.skin/yellow.png" alphatest="on" transparent="0" />
@@ -592,7 +592,7 @@
   </screen>
   <screen name="menu_mainmenu" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="20,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" foregroundColor="white" />
+    <widget source="title" render="Label" position="40,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" foregroundColor="white" />
     <widget source="menu" render="Listbox" position="44,78" size="480,465" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -606,7 +606,7 @@
   </screen>
   <screen name="menu_harddisk" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="20,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="title" render="Label" position="40,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="menu" render="Listbox" position="44,78" size="480,482" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -620,7 +620,7 @@
   </screen>
   <screen name="menu_information" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="13,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="title" render="Label" position="43,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="menu" render="Listbox" position="44,78" size="480,520" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -634,7 +634,7 @@
   </screen>
   <screen name="menu_scan" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="20,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="title" render="Label" position="40,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="menu" render="Listbox" position="44,78" size="480,520" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -648,7 +648,7 @@
   </screen>
   <screen name="menu_setup" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="20,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="title" render="Label" position="40,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="menu" render="Listbox" position="44,78" size="480,520" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -662,7 +662,7 @@
   </screen>
   <screen name="menu_shutdown" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="1,-2" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="20,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="title" render="Label" position="40,12" size="480, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="menu" render="Listbox" position="44,78" size="480,520" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -676,7 +676,7 @@
   </screen>
   <screen name="menu_system" position="350,40" size="556,665" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="2,-1" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
-    <widget source="title" render="Label" position="20,7" size="480,33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="title" render="Label" position="40,7" size="480,33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="menu" render="Listbox" position="44,78" size="480,520" zPosition="1" scrollbarMode="showNever" enableWrapAround="1" selectionPixmap="Royal-Blue.skin/sel40.png" backgroundPixmap="Royal-Blue.skin/sel_bg.png" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -699,7 +699,6 @@
     <widget source="Tuner1" render="Label" position="87,331" size="600,30" font="Regular;23" backgroundColor="background" transparent="1" foregroundColor="white" />
     <widget source="HDDHeader" render="Label" position="85,380" size="420,30" font="Regular;27" backgroundColor="background" transparent="1" foregroundColor="white" />
     <widget source="hddA" render="Label" position="84,431" size="420,90" font="Regular;23" backgroundColor="background" transparent="1" foregroundColor="white" />
-    <ePixmap pixmap="Royal-Blue.skin/icons/dmm_logo.png" position="106,556" size="530,72" alphatest="blend" />
     <ePixmap pixmap="Royal-Blue.skin/prev.png" position="834,476" size="302,171" alphatest="blend" />
     <widget source="session.CurrentService" render="Label" position="778,124" zPosition="1" size="420,41" font="Regular; 30" noWrap="1" backgroundColor="background" transparent="1" halign="center">
       <convert type="ServiceName">Name</convert>
@@ -714,7 +713,6 @@
     </widget>
     <ePixmap pixmap="Royal-Blue.skin/buttons/exit.png" position="1048,675" size="70,42" alphatest="on" />
     <ePixmap pixmap="Royal-Blue.skin/buttons/ok.png" position="152,675" size="70,43" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/RAED/RAEDlog.png" position="426,661" size="375,45" alphatest="on" />
   </screen>
   <screen name="UpdatePluginMenu" position="350,40" size="556,665" title="Softwaremanager..." backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="1,0" size="556,665" pixmap="Royal-Blue.skin/menu_bg.png" />
@@ -2037,17 +2035,17 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="thumbnail" position="0,0" size="265,180" alphatest="on" />
   </screen>
   <!-- MyTube End -->
-  <screen name="NameserverSetup" position="246,31" size="868,629" title="Nameserver Setup" backgroundColor="transparent" flags="wfNoBorder">
-    <ePixmap position="-30,-3" size="1100,606" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg3.png" />
-    <eLabel text="Nameserver Setup" position=" 50,12" size=" 500, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+  <screen name="NameserverSetup" position="166,31" size="868,629" title="Nameserver Setup" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="45,5" size="810,606" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
+    <eLabel text="Nameserver Setup" position="206,22" size=" 500, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget name="config" position="125,94" size="637,400" zPosition="1" itemHeight="40" scrollbarMode="showOnDemand" selectionPixmap="Royal-Blue.skin/barre/sel30.png" transparent="1" />
-    <widget source="introduction" render="Label" position="20,515" size="710,30" font="Regular;26" backgroundColor="background" halign="center" transparent="1" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position="8,562" size="250,25" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="311,562" size="250,25" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="550,590" size="250,2" alphatest="on" />
-    <widget source="key_red" render="Label" position="60,560" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <widget source="key_green" render="Label" position="345,560" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <widget source="key_yellow" render="Label" position="550,560" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <widget source="introduction" render="Label" position="95,505" size="700,30" font="Regular;26" backgroundColor="background" halign="center" transparent="1" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position="54,560" size="48,28" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="315,560" size="48,28" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="575,560" size="48,28" alphatest="on" />
+    <widget source="key_red" render="Label" position="110,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <widget source="key_green" render="Label" position="370,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <widget source="key_yellow" render="Label" position="630,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
   </screen>
   <screen name="NetworkAdapterSelection" position="35,49" size="1200,600" title="Select Network Adapter" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="1200,601" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg3.png" />
@@ -2736,28 +2734,31 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="oktext" position="270,145" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
   </screen>
   <screen name="TimerEditList" position="269,57" size="800,608" title="Timer Editor" backgroundColor="transparent" flags="wfNoBorder">
-    <ePixmap position="0,0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
-    <eLabel text="Timer Editor" position="73,14" size="650, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
-    <widget name="timerlist" position="71,76" size="673,443" scrollbarMode="showOnDemand" backgroundColor="background" selectionPixmap="Royal-Blue.skin/barre/sel75.png" backgroundPixmap="Royal-Blue.skin/barre/sep750.png" transparent="1" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position=" 20,590" size="180,2" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="200,590" size="180,2" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="380,590" size="180,2" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/blue.png" position="560,590" size="180,2" alphatest="on" />
-    <widget name="key_red" position="35,560" zPosition="10" size="150,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <widget name="key_green" position="260,560" zPosition="10" size="170,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" text="Aggiungere" />
-    <widget name="key_yellow" position="445,560" zPosition="10" size="150,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <widget name="key_blue" position="640,560" zPosition="10" size="150,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <ePixmap name="" position="207,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/green.png" zPosition="9" />
-  </screen>
+  <ePixmap position="0,0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
+  <eLabel text="Timer Editor" position="73,14" size="650, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+  <widget name="timerlist" position="71,76" size="673,443" scrollbarMode="showOnDemand" backgroundColor="background" selectionPixmap="Royal-Blue.skin/barre/sel75.png" backgroundPixmap="Royal-Blue.skin/barre/sep750.png" transparent="1" />
+  <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position=" 20,590" size="180,2" alphatest="on" />
+  <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="200,590" size="180,2" alphatest="on" />
+  <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="380,590" size="180,2" alphatest="on" />
+  <ePixmap pixmap="Royal-Blue.skin/buttons/blue.png" position="560,590" size="180,2" alphatest="on" />
+  <widget name="key_red" position="90,560" zPosition="10" size="150,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+  <widget name="key_green" position="300,560" zPosition="10" size="170,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" text="Aggiungere" />
+  <widget name="key_yellow" position="485,560" zPosition="10" size="150,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+  <widget name="key_blue" position="640,560" zPosition="10" size="150,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+  <ePixmap name="" position="252,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/green.png" zPosition="9" />
+<ePixmap name="" position="40,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/red.png" zPosition="9" />
+</screen>
   <screen name="TimerEntry" position="266,62" size="800,608" title="Timer entry" backgroundColor="transparent" flags="wfNoBorder">
-    <ePixmap position="0,0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
-    <eLabel text="Timer entry" position="71,15" size="650, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
-    <widget name="config" position="69,80" size="673,443" itemHeight="32" scrollbarMode="showOnDemand" backgroundColor="background" selectionPixmap="Royal-Blue.skin/barre/sel32.png" transparent="1" />
-    <widget name="cancel" pixmap="Royal-Blue.skin/buttons/red.png" position=" 50,590" size="250,2" alphatest="on" />
-    <widget name="ok" pixmap="Royal-Blue.skin/buttons/green.png" position="300,590" size="250,2" alphatest="on" />
-    <widget name="canceltext" position=" 50,560" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <widget name="oktext" position="300,560" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-  </screen>
+  <ePixmap position="0,0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
+  <eLabel text="Timer entry" position="71,15" size="650, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+  <widget name="config" position="69,80" size="673,443" itemHeight="32" scrollbarMode="showOnDemand" backgroundColor="background" selectionPixmap="Royal-Blue.skin/barre/sel32.png" transparent="1" />
+  <widget name="cancel" pixmap="Royal-Blue.skin/buttons/red.png" position=" 50,590" size="250,2" alphatest="on" />
+  <widget name="ok" pixmap="Royal-Blue.skin/buttons/green.png" position="300,590" size="250,2" alphatest="on" />
+  <widget name="canceltext" position="130,555" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+  <widget name="oktext" position="440,555" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+<ePixmap name="" position="387,556" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/green.png" zPosition="9" />
+<ePixmap name="" position="75,556" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/red.png" zPosition="9" />
+</screen>
   <screen name="TimerLog" position="26,74" size="1200,600" title="Timer log" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" size="1200,600" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg3.png" />
     <eLabel text="Timer log" position="49,5" size="650, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
@@ -2894,11 +2895,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="key_red" render="Label" position="176,558" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
   </screen>
   <screen name="WlanScan" position="center,center" size="800,608" title="Choose a Wireless Network" backgroundColor="transparent" flags="wfNoBorder">
-  <ePixmap position="0,0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
-  <widget source="Title" render="Label" position="96,15" size="600, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
-  <widget source="info" render="Label" position="40,65" size="710, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
-  <widget source="list" render="Listbox" position="63,104" size="673,433" zPosition="1" scrollbarMode="showOnDemand" selectionPixmap="Royal-Blue.skin/barre/sel75.png" backgroundPixmap="Royal-Blue.skin/barre/sep750.png" transparent="1">
-    <convert type="TemplatedMultiContent">
+    <ePixmap position="0,0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
+    <widget source="Title" render="Label" position="96,15" size="600, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="info" render="Label" position="40,65" size="710, 33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="list" render="Listbox" position="63,104" size="673,433" zPosition="1" scrollbarMode="showOnDemand" selectionPixmap="Royal-Blue.skin/barre/sel75.png" backgroundPixmap="Royal-Blue.skin/barre/sep750.png" transparent="1">
+      <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (0, 0), size = (550, 30), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the essid
 						MultiContentEntryText(pos = (0, 30), size = (175, 20), font=1, flags = RT_HALIGN_LEFT, text = 5), # index 5 is the interface
@@ -2910,18 +2911,17 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 				"itemHeight": 70
 				}
 			</convert>
-  </widget>
-  <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position=" 30,590" size="230,2" alphatest="on" />
-  <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="260,590" size="230,2" alphatest="on" />
-  <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="490,590" size="230,2" alphatest="on" />
-  <widget source="key_red" render="Label" position="60,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-  <widget source="key_green" render="Label" position="322,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-  <widget source="key_yellow" render="Label" position="590,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-<ePixmap name="" position="272,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/green.png" zPosition="9" />
-<ePixmap name="" position="10,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/red.png" zPosition="9" />
-<ePixmap name="" position="540,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/yellow.png" zPosition="9" />
-
-</screen>
+    </widget>
+    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position=" 30,590" size="230,2" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="260,590" size="230,2" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="490,590" size="230,2" alphatest="on" />
+    <widget source="key_red" render="Label" position="60,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <widget source="key_green" render="Label" position="322,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <widget source="key_yellow" render="Label" position="590,560" zPosition="1" size="200,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <ePixmap name="" position="272,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/green.png" zPosition="9" />
+    <ePixmap name="" position="10,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/red.png" zPosition="9" />
+    <ePixmap name="" position="540,561" size="48,28" alphatest="on" pixmap="Royal-Blue.skin/buttons/yellow.png" zPosition="9" />
+  </screen>
   <screen name="VTIMainMenu" position="center,center" size="800,608" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="  0, 0" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
     <eLabel text="VTI Panel" position="20,12" size="710,33" zPosition="1" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
@@ -3362,5 +3362,19 @@ MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2),
     <widget name="key_yellow" position="445,550" zPosition="1" size="150,30" font="Regular;24" halign="left" backgroundColor="background" transparent="1" />
     <widget name="key_blue" position="645,550" zPosition="1" size="150,30" font="Regular;24" halign="left" backgroundColor="background" transparent="1" />
     <eLabel name="" position="157,10" size="500,40" transparent="1" zPosition="2" text="Softcam Panel" halign="center" font="Regular; 35" foregroundColor="cyan1" />
+  </screen>
+  <screen name="PanEmu" position="0,0" size="1280,720" title="PanEmu" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg4.png" />
+    <ePixmap position="48,160" size="650,450" zPosition="5" pixmap="Royal-Blue.skin/uplist.png" alphatest="blend" transparent="1" />
+    <ePixmap position="754,184" size="483,444" zPosition="2" pixmap="Royal-Blue.skin/eurosatlogoBIG.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" halign="left" position="40,5" size="536,110" font="Regular; 60" backgroundColor="background1" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="900,20" size="121,29" font="Regular; 25" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1110,20" size="130,45" font="Regular; 35" backgroundColor="transpBlack" transparent="1" foregroundColor="lightgrey" halign="center" valign="center">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget name="Mlist" position="48,160" size="650,450" zPosition="5" scrollbarMode="showNever" transparent="1" />
+    <widget name="label1" position="350,670" size="641,30" font="Regular; 35" transparent="1" foregroundColor="lightgrey" halign="center" backgroundColor="black" />
   </screen>
 </skin>
