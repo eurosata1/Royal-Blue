@@ -988,7 +988,7 @@
   </screen>
   <screen name="AdapterSetup" position="center,center" size="1200,602" title="Adapter settings" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="-1,-18" size="1200,623" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg3.png" />
-    <widget source="Adapter" render="Label" position="122,-5" size="750, 33" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+    <widget source="Adapter" render="Label" position="122,5" size="750,35" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget name="config" position="70,62" size="710,297" itemHeight="27" scrollbarMode="showOnDemand" backgroundColor="background" selectionPixmap="Royal-Blue.skin/barre/sel32.png" transparent="1" />
     <widget source="introduction" render="Label" position="797,65" size="330,30" font="Regular;25" halign="center" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
     <widget source="IPtext" render="Label" position="800,115" size="322,28" font="Regular;24" halign="center" foregroundColor="grey" backgroundColor="background" transparent="1" />
@@ -1003,11 +1003,11 @@
     <widget source="DNS2" render="Label" position="800,470" size="322,28" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
     <widget name="HelpWindow" position="160,430" zPosition="1" size="1,1" transparent="1" alphatest="on" />
     <widget source="introduction2" render="Label" position="72,456" size="720,30" font="Regular;26" backgroundColor="background" halign="center" transparent="1" />
-    <widget name="VKeyIcon" pixmap="Royal-Blue.skin/buttons/text.png" position="1012,532" size="70,30" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position="60,543" size="250,18" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/blue.png" position="751,542" size="250,18" alphatest="on" />
-    <widget source="key_red" render="Label" position="71,538" zPosition="1" size="250,27" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
-    <widget source="key_blue" render="Label" position="749,530" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
+    <widget name="VKeyIcon" pixmap="Royal-Blue.skin/buttons/text.png" position="927,542" size="70,30" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position="120,554" size="50,28" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/blue.png" position="486,554" size="50,28" alphatest="on" />
+    <widget source="key_red" render="Label" position="176,554" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" valign="bottom" />
+    <widget source="key_blue" render="Label" position="541,554" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" valign="bottom" />
   </screen>
   <screen name="AdapterSetupConfiguration" position="center,center" size="800,601" title="Network Configuration..." backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,-2" size="800,601" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
@@ -2164,8 +2164,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			</convert>
     </widget>
     <widget source="introduction" render="Label" position="45,510" size="720,30" font="Regular;26" backgroundColor="background" halign="center" transparent="1" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position="56,560" size="250,25" alphatest="on" />
-    <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="450,590" size="250,2" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/red.png" position="56,558" size="50,28" alphatest="on" />
+    <ePixmap pixmap="Royal-Blue.skin/buttons/yellow.png" position="415,558" size="50,28" alphatest="on" />
     <widget source="key_red" render="Label" position="107,557" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
     <widget source="key_yellow" render="Label" position="468,556" zPosition="1" size="250,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" />
   </screen>
@@ -2280,10 +2280,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="servicelist" position="61,69" size="673,443" zPosition="1" itemHeight="32" scrollbarMode="showOnDemand" selectionPixmap="Royal-Blue.skin/barre/sel32.png" transparent="1" />
   </screen>
   <screen name="ParentalControlSetup" position="center,center" size="800,608" title="Parental control setup" backgroundColor="transparent" flags="wfNoBorder">
-    <ePixmap position="0,-2" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
-    <widget source="Title" render="Label" position="50,5" size="600, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
-    <widget name="config" position="58,71" size="673,443" zPosition="1" itemHeight="32" scrollbarMode="showOnDemand" selectionPixmap="Royal-Blue.skin/barre/sel32.png" transparent="1" />
-  </screen>
+  <ePixmap position="0,-2" size="800,608" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg2.png" />
+  <widget source="Title" render="Label" position="50,5" size="600, 33" halign="center" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
+  <widget name="config" position="58,71" size="673,443" zPosition="1" itemHeight="32" scrollbarMode="showOnDemand" selectionPixmap="Royal-Blue.skin/barre/sel32.png" transparent="1" />
+  <ePixmap pixmap="Royal-Blue.skin/buttons/green.png" position="55,555" size="48,28" alphatest="on" />
+  <widget source="key_green" render="Label" position="106,553" zPosition="1" size="300,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" text="Salva Impostazioni" />
+</screen>
   <screen name="picshow" position="center,center" size="1200,600" title="PicturePlayer" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="   0, 0" size="1200,600" zPosition="-1" pixmap="Royal-Blue.skin/menu_bg3.png" />
     <widget source="Title" render="Label" position="  50,12" size=" 750, 33" font="Regular;30" backgroundColor="background" shadowColor="black" shadowOffset="-3,-3" transparent="1" />
